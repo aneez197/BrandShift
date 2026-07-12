@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".BrandShiftApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_brandshift"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BrandShift">
+
+        <!-- Base Activity (No launcher filter directly) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BrandShift"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Launcher Activity Aliases -->
+        
+        <!-- 1. BrandShift (Default) -->
+        <activity-alias
+            android:name=".MainActivityAliasBrandShift"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_brandshift"
+            android:label="BrandShift"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 2. DevX -->
+        <activity-alias
+            android:name=".MainActivityAliasDevX"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_devx"
+            android:label="DevX"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 3. GameBox -->
+        <activity-alias
+            android:name=".MainActivityAliasGameBox"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_gamebox"
+            android:label="GameBox"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 4. OfficeMate -->
+        <activity-alias
+            android:name=".MainActivityAliasOfficeMate"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_officemate"
+            android:label="OfficeMate"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 5. Quick Notes -->
+        <activity-alias
+            android:name=".MainActivityAliasQuickNotes"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_quicknotes"
+            android:label="Quick Notes"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 6. Calculator -->
+        <activity-alias
+            android:name=".MainActivityAliasCalculator"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_calculator"
+            android:label="Calculator"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 7. Music Player -->
+        <activity-alias
+            android:name=".MainActivityAliasMusicPlayer"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_music"
+            android:label="Music Player"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- 8. Camera -->
+        <activity-alias
+            android:name=".MainActivityAliasCamera"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_camera"
+            android:label="Camera"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+    </application>
+
+</manifest>

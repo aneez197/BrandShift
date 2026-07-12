@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Briefcase Handle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,42 V36 a4,4 0 0 1 4,-4 h12 a4,4 0 0 1 4,4 v6 H58 V38 H50 v4 Z" />
+    <!-- Briefcase Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,42 h52 a6,6 0 0 1 6,6 v26 a6,6 0 0 1 -6,6 h-52 a6,6 0 0 1 -6,-6 v-26 a6,6 0 0 1 6,-6 z" />
+    <!-- Clasp/Lock -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M50,54 h8 v8 h-8 z" />
+    <!-- Straps/Lines on Briefcase -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M38,42 h4 v38 h-4 z M66,42 h4 v38 h-4 z" />
+</vector>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Laptop screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,34 h48 a4,4 0 0 1 4,4 v24 a0,0 0 0 1 0,0 h-56 a0,0 0 0 1 0,0 v-24 a4,4 0 0 1 4,-4 z" />
+    <!-- Laptop screen inner display (dark insert) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M33,37 h42 v22 h-42 z" />
+    <!-- Developer prompt inside screen: >_ -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M36,41 L40,45 L36,49 M42,49 H48"
+        android:strokeColor="#10B981"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+    <!-- Laptop keyboard base -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M24,64 h60 a2,2 0 0 1 2,2 v2 a4,4 0 0 1 -4,4 h-56 a4,4 0 0 1 -4,-4 v-2 a2,2 0 0 1 2,-2 z" />
+    <!-- Trackpad notch -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M50,65 h8 v1 h-8 z" />
+</vector>

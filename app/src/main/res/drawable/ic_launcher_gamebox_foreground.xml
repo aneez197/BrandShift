@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gamepad Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,40 H76 C86,40 92,48 90,62 L86,76 C84,80 78,82 72,78 L64,72 H44 L36,78 C30,82 24,80 22,76 L18,62 C16,48 22,40 32,40 Z" />
+    <!-- D-Pad (Left side) -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M33,58 H39 V52 H43 V58 H49 V62 H43 V68 H39 V62 H33 Z" />
+    <!-- Action Buttons (Right side) - Centered around (69, 57) -->
+    <!-- Top Button -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M69,51 A3,3 0 1,1 69,45 A3,3 0 1,1 69,51" />
+    <!-- Left Button -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M63,57 A3,3 0 1,1 63,51 A3,3 0 1,1 63,57" />
+    <!-- Right Button -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M75,57 A3,3 0 1,1 75,51 A3,3 0 1,1 75,57" />
+    <!-- Bottom Button -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M69,63 A3,3 0 1,1 69,57 A3,3 0 1,1 69,63" />
+</vector>

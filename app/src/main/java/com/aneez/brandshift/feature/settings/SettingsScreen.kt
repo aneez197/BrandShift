@@ -236,7 +236,7 @@ fun SettingsScreen(
                                     title = "GitHub Repository",
                                     subtitle = "View application open-source source files",
                                     onClick = {
-                                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/example/BrandShift"))
+                                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/aneez197/BrandShift"))
                                         context.startActivity(intent)
                                     }
                                 )

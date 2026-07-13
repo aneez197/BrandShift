@@ -26,56 +26,56 @@ class IdentityRepositoryImpl @Inject constructor(
         LauncherIdentity(
             id = "brandshift",
             name = "BrandShift",
-            iconResId = R.drawable.ic_launcher_brandshift_foreground,
+            iconResId = R.drawable.ic_brandshift,
             description = "Default launcher identity featuring a rocket theme.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasBrandShift"
         ),
         LauncherIdentity(
             id = "devx",
             name = "DevX",
-            iconResId = R.drawable.ic_launcher_devx_foreground,
+            iconResId = R.drawable.ic_devx,
             description = "A sleek developer dashboard layout.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasDevX"
         ),
         LauncherIdentity(
             id = "gamebox",
             name = "GameBox",
-            iconResId = R.drawable.ic_launcher_gamebox_foreground,
+            iconResId = R.drawable.ic_gamebox,
             description = "Unleash gaming performance styles.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasGameBox"
         ),
         LauncherIdentity(
             id = "officemate",
             name = "OfficeMate",
-            iconResId = R.drawable.ic_launcher_officemate_foreground,
+            iconResId = R.drawable.ic_officemate,
             description = "Professional productivity layout.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasOfficeMate"
         ),
         LauncherIdentity(
             id = "quicknotes",
             name = "Quick Notes",
-            iconResId = R.drawable.ic_launcher_quicknotes_foreground,
+            iconResId = R.drawable.ic_quicknotes,
             description = "Quick access notebook profile.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasQuickNotes"
         ),
         LauncherIdentity(
             id = "calculator",
             name = "Calculator",
-            iconResId = R.drawable.ic_launcher_calculator_foreground,
+            iconResId = R.drawable.ic_calculator,
             description = "Disguise application in stealth calculator style.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasCalculator"
         ),
         LauncherIdentity(
             id = "musicplayer",
             name = "Music Player",
-            iconResId = R.drawable.ic_launcher_music_foreground,
+            iconResId = R.drawable.ic_music,
             description = "Sleek music visual style.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasMusicPlayer"
         ),
         LauncherIdentity(
             id = "camera",
             name = "Camera",
-            iconResId = R.drawable.ic_launcher_camera_foreground,
+            iconResId = R.drawable.ic_camera,
             description = "Photography camera lens design.",
             aliasClassName = "com.aneez.brandshift.MainActivityAliasCamera"
         )

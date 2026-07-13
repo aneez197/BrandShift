@@ -259,7 +259,7 @@ fun AboutScreen(
                         Spacer(modifier = Modifier.height(12.dp))
                         OutlinedButton(
                             onClick = {
-                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/example/BrandShift"))
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/aneez197/BrandShift"))
                                 context.startActivity(intent)
                             },
                             shape = RoundedCornerShape(12.dp)

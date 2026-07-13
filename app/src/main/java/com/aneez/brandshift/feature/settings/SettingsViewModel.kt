@@ -86,7 +86,7 @@ class SettingsViewModel @Inject constructor(
         viewModelScope.launch {
             _uiEffect.send(
                 SettingsUiEffect.ShareAppContent(
-                    "Check out BrandShift! An Android showcase application demonstrating dynamic launcher identity changes: https://github.com/example/BrandShift"
+                    "Check out BrandShift! An Android showcase application demonstrating dynamic launcher identity changes: https://github.com/aneez197/BrandShift"
                 )
             )
         }

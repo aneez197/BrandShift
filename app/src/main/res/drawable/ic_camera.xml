@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,38 H44 L48,32 H60 L64,38 H76 a6,6 0 0 1 6,6 V68 a6,6 0 0 1 -6,6 H32 a6,6 0 0 1 -6,-6 V44 a6,6 0 0 1 6,-6 Z" />
+    <!-- Main Lens Outer Ring -->
+    <path
+        android:fillColor="#14B8A6"
+        android:pathData="M54,70 A14,14 0 1,1 54,42 A14,14 0 1,1 54,70" />
+    <!-- Lens Inner Glass -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,64 A8,8 0 1,1 54,48 A8,8 0 1,1 54,64" />
+    <!-- Flash Led Dot -->
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M72,46 A2,2 0 1,1 72,42 A2,2 0 1,1 72,46" />
+</vector>

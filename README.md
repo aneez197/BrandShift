@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/src/main/res/drawable/ic_launcher_brandshift_foreground.xml" width="120" height="120" alt="BrandShift Logo" />
+  <img src="app/src/main/res/drawable/ic_launcher_brandshift.xml" width="120" height="120" alt="BrandShift Logo" />
 </p>
 
 <h1 align="center">BrandShift</h1>

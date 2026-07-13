@@ -71,7 +71,7 @@ Click the thumbnail below to watch the premium vertical showcase video outlining
 
 | Mockup Live Preview | Applying Brand Identity |
 |:---:|:---:|
-| <img src="screenshots/launcher_preview.png" width="320" alt="Identity Preview" style="border-radius: 16px;" /> | <img src="screenshots/applying_brand.png" width="320" alt="Applying Identity Dialog" style="border-radius: 16px;" /> |
+| <img src="screenshots/launcher_perview.png" width="320" alt="Identity Preview" style="border-radius: 16px;" /> | <img src="screenshots/applying_brand.png" width="320" alt="Applying Identity Dialog" style="border-radius: 16px;" /> |
 
 | Launcher Icon Updated | App Settings |
 |:---:|:---:|
@@ -324,7 +324,7 @@ Discover how to cycle and toggle identities in under a minute:
 ### View Active Profiles
 Upon launch, view your current name, rocket icon identity, theme, and code definitions details.
 <p align="left">
-  <img src="screenshots/home.png" width="360" alt="Dashboard" />
+  <img src="screenshots/home_screen.png" width="360" alt="Dashboard" />
 </p>
 </details>
 
@@ -334,7 +334,7 @@ Upon launch, view your current name, rocket icon identity, theme, and code defin
 ### Browse Brand Profiles Grid
 Select from 8 different identities including DevX, GameBox, Camera Hide Mode, Music Player, and OfficeMate.
 <p align="left">
-  <img src="screenshots/identities.png" width="360" alt="Select profile" />
+  <img src="screenshots/brandshift.png" width="360" alt="Select profile" />
 </p>
 </details>
 
@@ -344,11 +344,11 @@ Select from 8 different identities including DevX, GameBox, Camera Hide Mode, Mu
 ### Live Device Preview
 Simulate how the app looks on a home screen grid inside a beautiful smartphone mockup before saving changes.
 <p align="left">
-  <img src="screenshots/preview.png" width="360" alt="Preview mock" />
+  <img src="screenshots/launcher_perview.png" width="360" alt="Preview mock" />
 </p>
 </details>
 
-<details>
+<!-- <details>
 <summary>📸 Step 4: Toggle & Apply Component Settings</summary>
 
 ### Warning & Process Kill
@@ -356,15 +356,15 @@ Approve the warning dialogue, permitting dynamic package updates. The app resets
 <p align="left">
   <img src="screenshots/applying.png" width="360" alt="Applying settings" />
 </p>
-</details>
+</details> -->
 
 <details>
-<summary>📸 Step 5: Verify Home Screen Refresh</summary>
+<summary>📸 Step 4: Verify Home Screen Refresh</summary>
 
 ### Instant Launcher Updates
 Your application name and icon updates on the home screen without reinstallation!
 <p align="left">
-  <img src="screenshots/launcher.png" width="360" alt="Launcher updated" />
+  <img src="screenshots/after_brand_change.png" width="360" alt="Launcher updated" />
 </p>
 </details>
 

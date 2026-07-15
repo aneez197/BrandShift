@@ -34,6 +34,16 @@ sealed class Screen(val route: String) {
     object Settings : Screen("settings")
     object About : Screen("about")
 }
+/**
+ * Configuration options for application navigation flow.
+ */
+object NavigationConfig {
+    /**
+     * Whether splash screen and home screen flow is enabled.
+     * Set to false to launch directly into the Identities screen.
+     */
+    const val ENABLE_SPLASH = false
+}
 
 /**
  * Application Navigation Controller composing screens logic and ViewModel scopes.
@@ -43,11 +53,19 @@ fun AppNavigation(
     navController: NavHostController,
     modifier: Modifier = Modifier
 ) {
+    val startDestination = if (NavigationConfig.ENABLE_SPLASH) {
+        Screen.Splash.route
+    } else {
+        Screen.Identities.route
+    }
+
     NavHost(
         navController = navController,
-        startDestination = Screen.Splash.route,
+        startDestination = startDestination,
         modifier = modifier
     ) {
+        // Reserved for future onboarding flow
+        // SplashScreen and HomeScreen are temporarily disabled.
         composable(Screen.Splash.route) {
             val viewModel: SplashViewModel = hiltViewModel()
             SplashScreen(
